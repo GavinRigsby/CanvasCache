@@ -479,7 +479,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     //opt.append_api_suffix();
 
-    std::env::set_var("RUST_BACKTRACE", "FULL");
+    //std::env::set_var("RUST_BACKTRACE", "FULL");
 
     restore_file_paths();
 
